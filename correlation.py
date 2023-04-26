@@ -29,7 +29,7 @@ if __name__ == '__main__':
     # Now, we can use strymread's time_shift function from strym package to find out the optimal time_shift
     time_shift = strymread.time_shift(df1, df2)
     print(time_shift)
-    time_shift = 3.62
+    # time_shift = 3.62
     # Finally, we can visualize the data after timeshift:
     fig, ax = strymread.create_fig(1)
     ax[0].scatter(x=df1['Time'], y=df1['Message'], s=4, label='IMU1', c='#131342')
